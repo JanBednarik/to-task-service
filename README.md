@@ -26,13 +26,15 @@ Instal requirements and test requirements:
 
 Run local server:
 
-`$ gunicorn app:api`
+`$ gunicorn -b :5000 app:api`
+
+Open in browser http://localhost:5000/members
 
 ### Running tests
 
 Tests are using `pytest` framework.
 
-Run tests: `$ pytest`
+Run tests: `$ pytest tests.py`
 
 ### Updating requirements
 
