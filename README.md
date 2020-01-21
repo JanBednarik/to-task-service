@@ -8,6 +8,16 @@ Has one endpoint `/members` returning JSON response like:
 {"members": 1234}
 ```
 
+## Setup and run
+
+Install Python requirements:
+
+`$ pip install -r requirements.txt`
+
+Run Gunicorn server with app on port 5000:
+
+`$ gunicorn -b :5000 app:api`
+
 ## Contribution
 
 ### Files
