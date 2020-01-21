@@ -22,8 +22,8 @@ Run Gunicorn server with app on port 5000:
 
 ### Files
 
-`app.py` - main app
-`tests.py` - tests
+* `app.py` - main app
+* `tests.py` - tests
 
 ### Local setup
 
@@ -50,5 +50,5 @@ Run tests: `$ pytest tests.py`
 
 Use `pip-compile` from pip tools (`$ pip install pip-tools`):
 
-Update requirements: `$ pip-compile -U requirements.in`
-Update test requirements: `$ pip-compile -U test-requirements.in`
+* Update requirements: `$ pip-compile -U requirements.in`
+* Update test requirements: `$ pip-compile -U test-requirements.in`
