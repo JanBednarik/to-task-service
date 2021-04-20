@@ -4,13 +4,25 @@
 #
 #    pip-compile test-requirements.in
 #
-attrs==19.3.0             # via pytest
-more-itertools==8.1.0     # via pytest
-packaging==20.0           # via pytest
-pluggy==0.13.1            # via pytest
-py==1.8.1                 # via pytest
-pyparsing==2.4.6          # via packaging
+attrs==19.3.0
+    # via pytest
+more-itertools==8.1.0
+    # via pytest
+packaging==20.0
+    # via pytest
+pluggy==0.13.1
+    # via pytest
+py==1.10.0
+    # via pytest
+pyparsing==2.4.6
+    # via packaging
 pytest-mock==2.0.0
+    # via -r test-requirements.in
 pytest==5.3.4
-six==1.14.0               # via packaging
-wcwidth==0.1.8            # via pytest
+    # via
+    #   -r test-requirements.in
+    #   pytest-mock
+six==1.14.0
+    # via packaging
+wcwidth==0.1.8
+    # via pytest
